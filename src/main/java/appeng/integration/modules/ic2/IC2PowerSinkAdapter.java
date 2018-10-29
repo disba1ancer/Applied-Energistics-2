@@ -56,6 +56,12 @@ public class IC2PowerSinkAdapter extends BasicSink implements IC2PowerSink
 	}
 
 	@Override
+	public void invalidateNoObf()
+	{
+		super.onChunkUnload();
+	}
+
+	@Override
 	public void onChunkUnload()
 	{
 		super.onChunkUnload();

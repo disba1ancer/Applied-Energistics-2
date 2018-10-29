@@ -33,6 +33,11 @@ public interface IC2PowerSink
 
 	default void invalidate()
 	{
+		invalidateNoObf();
+	}
+
+	default void invalidateNoObf()
+	{
 	}
 
 	default void onChunkUnload()
