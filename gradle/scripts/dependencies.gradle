@@ -31,7 +31,7 @@ repositories {
 
     maven {
         name = "Tesla repo"
-        url "http://maven.epoxide.xyz"
+        url "http://maven.mcmoddev.com"
     }
 
     maven {
